@@ -1,0 +1,13 @@
+2025-04-13 20:11:37 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2025-04-13 20:11:37 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2025-04-13 20:11:39 DEBUG - Set '15' timeout in seconds for loading of pages
+2025-04-13 20:11:39 DEBUG - Set async javascript execution timeout '10' in seconds
+2025-04-13 20:11:39 INFO  - Browser 'CHROME' ready...
+2025-04-13 20:11:39 INFO  - Maximizing browser window
+2025-04-13 20:11:39 INFO  - Navigate to url - 'https://the-internet.herokuapp.com'
+2025-04-13 20:11:40 INFO  - Link 'JavaScript Alerts' :: Clicking
+2025-04-13 20:11:40 INFO  - Button 'Click for JS alert' :: Clicking
+2025-04-13 20:11:40 INFO  - Accepting browser alert
+2025-04-13 20:11:40 INFO  - Closing browser
