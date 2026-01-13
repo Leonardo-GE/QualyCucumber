@@ -1,7 +1,7 @@
 Feature: Checkbox
 
 
-
+  // TEST Scenario
   Scenario: Checkbox Test
 
     Given The User goes to the "Checkboxes" page from the Main Page
