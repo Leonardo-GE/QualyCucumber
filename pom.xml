@@ -80,6 +80,14 @@
             <artifactId>allure-maven</artifactId>
             <version>${allure.maven.version}</version>
         </dependency>
+
+        <!-- Explicit Selenium: gives ChromeOptions/WebDriver; matches your earlier logs -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.20.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

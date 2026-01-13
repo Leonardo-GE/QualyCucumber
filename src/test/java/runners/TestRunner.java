@@ -5,7 +5,10 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        // todo: add options
+    features = "src/test/java/features",   // Path to your .feature files
+    glue = {"stepdefinitions"},            // Package where your step definitions live
+    plugin = {"pretty", "html:target/cucumber-report.html"}, // Optional reports
+    monochrome = true                       // Optional, makes console output cleaner
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

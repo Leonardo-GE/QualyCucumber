@@ -13,7 +13,7 @@ public class Hooks {
     public void setup()
     {
         browser =  AqualityServices.getBrowser();
-        browser.maximize();
+        browser.getDriver().manage().window().setSize(new org.openqa.selenium.Dimension(1920, 1080));
         browser.goTo("https://the-internet.herokuapp.com");
     }
 

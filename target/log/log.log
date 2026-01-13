@@ -1,26 +1,71 @@
-2025-04-13 20:11:37 DEBUG - Got browser profile options from settings file: 
+2026-01-07 18:52:00 DEBUG - Got browser profile options from settings file: 
 {disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
-2025-04-13 20:11:37 DEBUG - Got browser logging preferences from settings file: 
+2026-01-07 18:52:00 DEBUG - Got browser logging preferences from settings file: 
 {Performance=All}
-2025-04-13 20:11:39 DEBUG - Set '15' timeout in seconds for loading of pages
-2025-04-13 20:11:39 DEBUG - Set async javascript execution timeout '10' in seconds
-2025-04-13 20:11:39 INFO  - Browser 'CHROME' ready...
-2025-04-13 20:11:39 INFO  - Maximizing browser window
-2025-04-13 20:11:39 INFO  - Navigate to url - 'https://the-internet.herokuapp.com'
-2025-04-13 20:11:40 INFO  - Link 'JavaScript Alerts' :: Clicking
-2025-04-13 20:11:40 INFO  - Button 'Click for JS alert' :: Clicking
-2025-04-13 20:11:40 INFO  - Accepting browser alert
-2025-04-13 20:11:40 INFO  - Closing browser
-2025-04-13 21:05:51 DEBUG - Got browser profile options from settings file: 
+2026-01-07 18:52:03 DEBUG - Set '15' timeout in seconds for loading of pages
+2026-01-07 18:52:03 DEBUG - Set async javascript execution timeout '10' in seconds
+2026-01-07 18:52:03 INFO  - Browser 'CHROME' ready...
+2026-01-07 18:52:03 INFO  - Maximizing browser window
+2026-01-07 18:52:03 INFO  - Navigate to url - 'https://the-internet.herokuapp.com'
+2026-01-07 18:52:04 INFO  - Link 'Checkboxes' :: Clicking
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox1' :: Getting state
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox1' :: State: [false]
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox1' :: Setting value - 'true'
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox1' :: Clicking
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox2' :: Getting state
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox2' :: State: [true]
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox2' :: Setting value - 'false'
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox2' :: Clicking
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox1' :: Getting state
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox1' :: State: [true]
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox2' :: Getting state
+2026-01-07 18:52:04 INFO  - CheckBox 'Checkbox2' :: State: [false]
+2026-01-07 18:52:04 INFO  - Closing browser
+2026-01-07 19:48:54 DEBUG - Got browser profile options from settings file: 
 {disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
-2025-04-13 21:05:51 DEBUG - Got browser logging preferences from settings file: 
+2026-01-07 19:48:54 DEBUG - Got browser start arguments from settings file: 
+[--headless=new, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --no-first-run, --no-default-browser-check, --hide-scrollbars, --force-device-scale-factor=1, --window-size=1920,1080]
+2026-01-07 19:48:54 DEBUG - Got browser logging preferences from settings file: 
 {Performance=All}
-2025-04-13 21:05:53 DEBUG - Set '15' timeout in seconds for loading of pages
-2025-04-13 21:05:53 DEBUG - Set async javascript execution timeout '10' in seconds
-2025-04-13 21:05:53 INFO  - Browser 'CHROME' ready...
-2025-04-13 21:05:53 INFO  - Maximizing browser window
-2025-04-13 21:05:53 INFO  - Navigate to url - 'https://the-internet.herokuapp.com'
-2025-04-13 21:05:54 INFO  - Link 'JavaScript Alerts' :: Clicking
-2025-04-13 21:05:54 INFO  - Button 'Click for JS alert' :: Clicking
-2025-04-13 21:05:54 INFO  - Accepting browser alert
-2025-04-13 21:05:54 INFO  - Closing browser
+2026-01-07 19:48:56 DEBUG - Set '15' timeout in seconds for loading of pages
+2026-01-07 19:48:56 DEBUG - Set async javascript execution timeout '10' in seconds
+2026-01-07 19:48:56 INFO  - Browser 'CHROME' ready...
+2026-01-07 19:48:56 INFO  - Navigate to url - 'https://the-internet.herokuapp.com'
+2026-01-07 19:48:57 INFO  - Link 'Checkboxes' :: Clicking
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox1' :: Getting state
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox1' :: State: [false]
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox1' :: Setting value - 'true'
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox1' :: Clicking
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox2' :: Getting state
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox2' :: State: [true]
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox2' :: Setting value - 'false'
+2026-01-07 19:48:57 INFO  - CheckBox 'Checkbox2' :: Clicking
+2026-01-07 19:48:58 INFO  - CheckBox 'Checkbox1' :: Getting state
+2026-01-07 19:48:58 INFO  - CheckBox 'Checkbox1' :: State: [true]
+2026-01-07 19:48:58 INFO  - CheckBox 'Checkbox2' :: Getting state
+2026-01-07 19:48:58 INFO  - CheckBox 'Checkbox2' :: State: [false]
+2026-01-07 19:48:58 INFO  - Closing browser
+2026-01-07 20:50:04 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2026-01-07 20:50:04 DEBUG - Got browser start arguments from settings file: 
+[--headless=new, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --no-first-run, --no-default-browser-check, --hide-scrollbars, --force-device-scale-factor=1, --window-size=1920,1080]
+2026-01-07 20:50:04 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2026-01-07 20:50:06 DEBUG - Set '15' timeout in seconds for loading of pages
+2026-01-07 20:50:06 DEBUG - Set async javascript execution timeout '10' in seconds
+2026-01-07 20:50:06 INFO  - Browser 'CHROME' ready...
+2026-01-07 20:50:06 INFO  - Navigate to url - 'https://the-internet.herokuapp.com'
+2026-01-07 20:50:07 INFO  - Link 'Checkboxes' :: Clicking
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox1' :: Getting state
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox1' :: State: [false]
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox1' :: Setting value - 'true'
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox1' :: Clicking
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox2' :: Getting state
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox2' :: State: [true]
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox2' :: Setting value - 'false'
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox2' :: Clicking
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox1' :: Getting state
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox1' :: State: [true]
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox2' :: Getting state
+2026-01-07 20:50:08 INFO  - CheckBox 'Checkbox2' :: State: [false]
+2026-01-07 20:50:08 INFO  - Closing browser
